@@ -1,4 +1,4 @@
-# JPG to PDF Converter - Marketing Website
+# PNG to PDF Converter - Marketing Website
 
 A modern, responsive marketing website built with Next.js to promote both web-based and desktop PNG to PDF conversion tools. Features clean design, optimized performance, and seamless user experience.
 
