@@ -76,43 +76,30 @@ export default function Hero() {
               />
             </div>
             {portfolioItemDesktop.description}
-            {/* <div className="mt-10 flex w-full flex-col items-start gap-3">
+            <div className="mt-10 flex w-full flex-col items-start gap-3">
               <strong>Helpful Links for Desktop App</strong>
               <Button asChild variant={"link"} className="h-auto px-0 py-0">
                 <Link href={"/help"} onClick={() => setActiveSection("")}>
-                  JPG to PDF Converter software user guide
+                  PNG to PDF Converter software user guide
                 </Link>
               </Button>
               <Button asChild variant={"link"} className="h-auto px-0 py-0">
                 <Link
-                  href={"/how-batch-convert-jpg-pdf"}
+                  href={"/how-to-convert-png-to-pdf"}
                   onClick={() => setActiveSection("")}
                 >
-                  How to convert JPG to PDF in batch?
+                  How to convert PNG to PDF in batch?
                 </Link>
               </Button>
               <Button asChild variant={"link"} className="h-auto px-0 py-0">
                 <Link
-                  href={"/how-to-merge-jpg-to-pdf"}
+                  href={"/how-to-merge-png-to-pdf"}
                   onClick={() => setActiveSection("")}
                 >
-                  How to combine multiple JPG to PDF in Windows?
+                  How to combine multiple PNG to PDF in Windows?
                 </Link>
               </Button>
-              <Button asChild variant={"link"} className="h-auto px-0 py-0">
-                <Link
-                  href={"how-to-export-scanned-jpg-to-pdf"}
-                  onClick={() => setActiveSection("")}
-                >
-                  How do I change a scanned JPGs to a PDF file?
-                </Link>
-              </Button>
-              <Button asChild variant={"link"} className="h-auto px-0 py-0">
-                <Link href={"/jpg-vs-pdf"} onClick={() => setActiveSection("")}>
-                  Which file format should you use JPG or PDF?
-                </Link>
-              </Button>
-            </div> */}
+            </div>
           </>
         )}
       </div>

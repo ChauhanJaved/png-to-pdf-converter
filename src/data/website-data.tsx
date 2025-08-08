@@ -19,12 +19,27 @@ export const headerNavItems: string[] = [
 
 export const productImages = {
   PNGtoPDFConverterWeb: {
-    imgName: "png-to-pdf-converter-web-icon",
+    title: "PNG to PDF Converter Online",
+    imgName: `/${headerCompanyName.toLowerCase()}/${"png-to-pdf-converter-web-icon".toLowerCase()}`,
     width: 1024,
     height: 1024,
   },
   PNGtoPDFConverterDesktop: {
-    imgName: "png-to-pdf-converter",
+    title: "PNG to PDF Converter",
+    imgName: `/${headerCompanyName.toLowerCase()}/${"png-to-pdf-converter".toLowerCase()}`,
+    width: 756,
+    height: 463,
+  },
+  PNGtoPDFConverterSettings: {
+    title: "PNG to PDF Converter Settings",
+    imgName: `/${headerCompanyName.toLowerCase()}/${"png-to-pdf-converter-settings".toLowerCase()}`,
+    width: 756,
+    height: 463,
+  },
+
+  PNGtoPDFConverterFilesSelected: {
+    title: "PNG to PDF Converter Files Selected",
+    imgName: `/${headerCompanyName.toLowerCase()}/${"png-to-pdf-converter-files-selected".toLowerCase()}`,
     width: 756,
     height: 463,
   },

@@ -64,12 +64,12 @@ export default function Pricing() {
             One-Time Purchase with Lifetime License
           </h3>
           <p className="mt-2">
-            Enjoy a lifetime of access with just a one-time purchase of our JPG
-            to PDF converter. Once you’ve acquired the license, there are no
-            recurring fees or subscriptions. This lifetime license provides you
-            unlimited use of our powerful conversion tools, making it a
-            valuable, long-term investment for users who frequently work with
-            image to PDF conversions.
+            Enjoy a lifetime of access with just a one-time purchase. Once
+            you’ve acquired the license, there are no recurring fees or
+            subscriptions. This lifetime license provides you unlimited use of
+            our powerful conversion tools, making it a valuable, long-term
+            investment for users who frequently work with image to PDF
+            conversions.
           </p>
 
           <h3 className="mt-10 font-semibold">Free Lifetime Upgrades</h3>
