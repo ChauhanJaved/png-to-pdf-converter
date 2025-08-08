@@ -46,7 +46,7 @@ export default function Page() {
               <Slash />
             </BreadcrumbSeparator>
             <BreadcrumbItem>
-              <BreadcrumbPage>Software User Guide</BreadcrumbPage>
+              <BreadcrumbPage>Combine PNG into PDF</BreadcrumbPage>
             </BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>
@@ -54,9 +54,9 @@ export default function Page() {
       <section className="container mx-auto px-5 lg:px-10 xl:max-w-screen-xl">
         <SectionHeader
           className="mt-10 lg:mt-16"
-          caption="Software User Guide"
+          caption="Combine PNG into PDF"
           element="h1"
-          desc="Windows 11/10/8/7 | Fully Functional 15 Days Free Trial | Secure Download"
+          desc="Windows 11/10/8/7 | Fully Functional - No Limits - 15 Days Free | Safe & Secure Download"
         />
         <div className="flex flex-col items-center">
           <div className="mt-10 flex w-full flex-col items-center justify-center gap-3 rounded-md border p-10">
@@ -91,82 +91,75 @@ export default function Page() {
                 width={productImages.PNGtoPDFConverterDesktop.width}
                 height={productImages.PNGtoPDFConverterDesktop.height}
                 alt={productImages.PNGtoPDFConverterDesktop.title}
-                galleryID="software-user-guide"
+                galleryID="PNGtoPDFConverterDesktop"
               />
             </div>
           </div>
 
           <div className="mt-5 flex flex-col">
-            <h2 className="mt-10 font-semibold">Adding files:</h2>
+            <h2 className="mt-10 font-semibold">
+              How to Combine PNG images to PDF in Windows 11/10/8/7?
+            </h2>
+            <p className="mt-2">
+              PNG is a lossless compressed format, which makes it good for both
+              photographs and text files. A PNG will normally be larger than a
+              JPEG, and sometimes smaller than a TIFF. It was originally
+              developed to replace the GIF, but the formats are drastically
+              different, and both have a place in today’s computer world. PNG
+              supports more colors than GIF images as well as better
+              transparency. It is a useful format for line graphics and
+              wordmarks as the lines and text will show up crisply and neatly in
+              the output image. PNG’s benefits are compress images without
+              losing quality and suitable for text documents. Disadvantages are
+              larger file size than JPEGs and not suitable for professional
+              quality print graphics. Sometimes you want to combine PNG images
+              into PDF (Portable Document Format) format suitable for sharing
+              and can be viewed in a professional software program or a free
+              acrobat reader.
+            </p>
+            <p className="mt-2">
+              If you have thousands of PNG images and they need to be merge into
+              Adobe PDF documents, choose our converter program that
+              accommodates batch process — that’ll save both your time and your
+              clicking finger.
+            </p>
             <p className="mt-2">
               Download Free PNG to PDF Converter and install it on your
               computer. A full version of the program is available for download.
-              Run the application, you can see the above screen.
+              Run the desktop application, you can see the above screen.
             </p>
             <p className="mt-2">
-              Clicking the “Add Files” button will open the standard file browse
-              and select window. From that window you can navigate to the folder
-              and find the files you want to add to the list to be converted
-              from.
-            </p>
-            <p className="mt-2">
-              Alternatively, If you are using Windows Explorer to locate files,
-              you have the convenience of being able to drag and drop files and
-              folders into the list.
+              Click on “Add Files” to add PNG files into the conversion list.
+              You can also drag and drop files and folders from the Windows
+              Explorer.
             </p>
 
-            <p className="mt-2">
-              This software application even allows you to select all files in a
-              particular directory/folder by clicking the “Add Folder” button.
-              It also supports sub-folders.
-            </p>
-            <p className="mt-2">
-              By using “Move Up” and “Move Down” buttons you can rearrange the
-              position of files in the list. If you want to remove any selected
-              files from the list, you can click “Remove” button and if you want
-              to clear all the files from the list, you can use “Remove All”
-              button.
-            </p>
             <div className="my-10 flex justify-center">
               <ProductImage
                 src={productImages.PNGtoPDFConverterFilesSelected.imgName}
                 width={productImages.PNGtoPDFConverterFilesSelected.width}
                 height={productImages.PNGtoPDFConverterFilesSelected.height}
                 alt={productImages.PNGtoPDFConverterFilesSelected.title}
-                galleryID="software-user-guide-files-selected"
+                galleryID="PNGtoPDFConverterFilesSelected"
               />
             </div>
-            <h2 className="mt-10 font-semibold">Modify Settings:</h2>
-            <p className="mt-2">
-              Output Folder: Browse output folder that you want or keep it
-              default. You can also select “Save to same folder as original
-              file”.
+            <p className="mt-10">
+              After selecting PNG files for merging, select Output Mode
+              &#34;Combine all PNG to PDF&#34; from settings screen.
             </p>
-            <p className="mt-2">
-              If you want to view output files after conversion, select this
-              option “Open output folder after conversion”
-            </p>
-            <p className="mt-2">
-              Output Mode: If you want to convert PNG to PDF as it is, select
-              &#34;Convert each PNG to PDF&#34;, if you want to merge all
-              selected PNG into single PDF file, then select “Combine all PNG to
-              PDF”.
-            </p>
-
             <div className="my-10 flex justify-center">
               <ProductImage
                 src={productImages.PNGtoPDFConverterSettings.imgName}
                 width={productImages.PNGtoPDFConverterSettings.width}
                 height={productImages.PNGtoPDFConverterSettings.height}
                 alt={productImages.PNGtoPDFConverterSettings.title}
-                galleryID="software-user-guide-settings"
+                galleryID="PNGtoPDFConverterSettings"
               />
             </div>
-            <h2 className="mt-10 font-semibold">Start Conversion:</h2>
-            <p className="mt-2">
-              After adding all your files and selecting your settings, you can
-              now click “Convert” button to start conversion process. You will
-              get your output in your selected location.
+            <p className="mt-10">
+              Now to combine PNG to PDF, click on &#34;Convert&#34; button to
+              begin the batch conversion process. All of the generated PDF will
+              appear in a separate output folder.
             </p>
           </div>
         </div>
