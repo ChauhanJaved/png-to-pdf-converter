@@ -12,7 +12,7 @@ export const PNGtoPDFConverterWeb: portfolioItem = {
   id: ProductIDs.PNGtoPDFConverterWeb,
   title: productTitles.PNGtoPDFConverterWeb,
   subtitle: productSubTitles.PNGtoPDFConverterWeb,
-  src: `/${productImages.PNGtoPDFConverterWeb.imgName.toLowerCase()}`,
+  src: productImages.PNGtoPDFConverterWeb.imgName,
   width: productImages.PNGtoPDFConverterWeb.width,
   height: productImages.PNGtoPDFConverterWeb.height,
   categories: [Categories.All, Categories.WebApp, Categories.Converter],
@@ -92,7 +92,7 @@ export const PNGtoPDFConverterWeb: portfolioItem = {
       images: [
         {
           url: cloudinaryLoader({
-            src: `/${productImages.PNGtoPDFConverterWeb.imgName.toLowerCase()}`,
+            src: productImages.PNGtoPDFConverterWeb.imgName,
             width: productImages.PNGtoPDFConverterWeb.width,
           }),
           width: productImages.PNGtoPDFConverterWeb.width,

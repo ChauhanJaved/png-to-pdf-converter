@@ -13,7 +13,7 @@ export const PNGtoPDFConverterDesktop: portfolioItem = {
   id: ProductIDs.PNGtoPDFConverterDesktop,
   title: productTitles.PNGtoPDFConverterDesktop,
   subtitle: productSubTitles.PNGtoPDFConverterDesktop,
-  src: `/${productImages.PNGtoPDFConverterDesktop.imgName.toLowerCase()}`,
+  src: productImages.PNGtoPDFConverterDesktop.imgName,
   width: productImages.PNGtoPDFConverterDesktop.width,
   height: productImages.PNGtoPDFConverterDesktop.height,
   categories: [Categories.All, Categories.DesktopApp, Categories.Converter],
@@ -127,7 +127,7 @@ export const PNGtoPDFConverterDesktop: portfolioItem = {
       images: [
         {
           url: cloudinaryLoader({
-            src: `/${productImages.PNGtoPDFConverterDesktop.imgName.toLowerCase()}`,
+            src: productImages.PNGtoPDFConverterDesktop.imgName,
             width: productImages.PNGtoPDFConverterDesktop.width,
           }),
           width: productImages.PNGtoPDFConverterDesktop.width,
